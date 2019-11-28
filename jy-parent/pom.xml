@@ -8,7 +8,7 @@
   <artifactId>jy-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>../jy-spring</module>
+    <module>../jy-java</module>
   </modules>
   <packaging>pom</packaging>
 
