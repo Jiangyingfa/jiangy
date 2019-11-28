@@ -11,6 +11,8 @@ package com.jy.io.io;
  * 3、字符流的复制可以使用FileReader、FileWriter，其他类型文件的复制需要使用字节流实现
  * 4、实际开发过程中，大都使用BufferedInputStream、BufferedOutputStream、BufferedReader、BufferedWriter，
  *    因为其对应的方法都是非阻塞式的，而InputStream的都是阻塞式的（一直等待，不知道后边还会不会有数据）
+ * 5、word文档进行复制的时候，使用字节流，因为文档里可能会存在图片，并且文字都是经过包装的，不是纯粹的文本文件。
+ *   因此只有txt文本才适合使用Reader、Writer字符流进行操作。
  */
 public class IOTest {
 }
