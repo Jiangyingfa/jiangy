@@ -12,6 +12,7 @@ public class BaseDao<T> {
 
     public T add (T t){
         //TODO:执行数据库保存
+        System.out.println();
         return t;
     }
 
